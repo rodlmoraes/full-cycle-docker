@@ -66,7 +66,7 @@ function insertPerson(res, connection) {
             return
         }
     
-        console.log('Person insertes successfully:', results)
+        console.log('Person inserted successfully:', results)
     })
 }
 
@@ -109,5 +109,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () =>{
-    console.log('Rodando na porta ' + port)
+    console.log('Running on port ' + port)
 })
