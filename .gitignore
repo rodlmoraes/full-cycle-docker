@@ -1,3 +1,7 @@
 node/node_modules
 mysql/*
+
+challenges/node_nginx/node/node_modules
+challenges/node_nginx/mysql/*
+
 challenges/go/go
